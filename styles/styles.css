@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #02050e;
+}
+.leftDiv {
+  width: 20%;
+  background-color: #050d20;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  position: fixed;
+  box-shadow: #141925 2px 2px 2px;
+}
+.roundedProfileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #28475c;
+}
+.nameText {
+  color: #d6e3ff;
+  font-weight: 800;
+  font-size: 20px;
+}
+.roleText {
+  color: rgba(255, 255, 255, 0.49);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 50px 0;
+}
+.navItem a {
+  text-decoration: none;
+  color: #d6e3ff;
+  font-size: 16px;
+  margin: 0 0 40px 0;
+}
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightItems {
+  width: 75%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.coverImageContainer {
+  height: 400px;
+  width: 97%;
+  object-fit: cover;
+  background: url(../assets/images/display.jpg);
+  position: relative;
+}
+.centerImage {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 20px;
+  border: 2px solid #28475c;
+}
+.flexing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  position: absolute;
+  top: 300px;
+}
+.flexItem {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(100deg, #00278a 10%, #000000 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.vector {
+  width: 30px;
+  margin: 0 0 20px 0;
+}
+.flexText {
+  color: #d6e3ff;
+  font-size: 14px;
+}
+.aboutContainer {
+  margin: 150px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+h3 {
+  color: #d6e3ff;
+  font-weight: 800;
+}
+.contentText {
+  color: #c0c3ca;
+  margin: 20px 0 0 0;
+  font-size: 14px;
+}
+.skillsContainer {
+  margin: 40px 0 0 0;
+}
