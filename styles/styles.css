@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -96,6 +96,7 @@ body {
 .flexText {
   color: #d6e3ff;
   font-size: 14px;
+  font-weight: 400;
 }
 .aboutContainer {
   margin: 150px 0 0 0;
@@ -113,5 +114,34 @@ h3 {
   font-size: 14px;
 }
 .skillsContainer {
-  margin: 40px 0 0 0;
+  margin: 100px 0 100px 0;
+}
+.plus {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+.skillMiniItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+.skilLogo {
+  width: 30px;
+}
+.skillMiniItem p {
+  color: #d6e3ff;
+  margin: 0 0 0 20px;
+}
+.whichEnd {
+  color: #4d4d4d;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.horSkillCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
 }
